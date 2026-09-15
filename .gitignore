@@ -1,0 +1,50 @@
+# Compilación y ejecutables (PyInstaller, cx_Freeze, etc.)
+build/
+dist/
+*.spec
+*.bin
+*.exe
+*.pkg
+*.app
+
+# Bytecode y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Entornos y variables de configuración sensible
+.env
+.env.local
+.env.*.local
+
+# OpenCV / logs / capturas temporales
+*.log
+recordings/
+captures/
+shots/
+temp/
+tmp/
+
+# Archivos de configuración de editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ejecutables
+.exe
